@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JCCloudProgressView_Example' do
+  pod 'JCCloudProgressView', :path => '../'
+
+  target 'JCCloudProgressView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
