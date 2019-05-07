@@ -1,0 +1,22 @@
+{
+  "name": "JCCloudProgressView",
+  "version": "0.1.0",
+  "summary": "A short description of JCCloudProgressView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JasonHan1990/JCCloudProgressView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JasonHan1990": "namrie1990@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/JasonHan1990/JCCloudProgressView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JCCloudProgressView/Classes/**/*"
+}

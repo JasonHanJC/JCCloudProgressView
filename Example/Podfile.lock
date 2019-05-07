@@ -1,0 +1,16 @@
+PODS:
+  - JCCloudProgressView (0.1.0)
+
+DEPENDENCIES:
+  - JCCloudProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  JCCloudProgressView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JCCloudProgressView: 1bd45ae3e539de3da48a130ec8ca9b6943532d74
+
+PODFILE CHECKSUM: 6225d913273923c0ae9a65c32ba234d378d40cb4
+
+COCOAPODS: 1.7.0.rc.1

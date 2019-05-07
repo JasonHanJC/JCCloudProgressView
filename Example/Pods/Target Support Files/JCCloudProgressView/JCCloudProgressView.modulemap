@@ -1,0 +1,6 @@
+framework module JCCloudProgressView {
+  umbrella header "JCCloudProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}
