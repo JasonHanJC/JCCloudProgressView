@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "JCCloudProgressView.h"
+#import "WaveLayer.h"
 
 FOUNDATION_EXPORT double JCCloudProgressViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char JCCloudProgressViewVersionString[];

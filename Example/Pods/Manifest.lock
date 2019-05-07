@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JCCloudProgressView: 1bd45ae3e539de3da48a130ec8ca9b6943532d74
+  JCCloudProgressView: 300bdb615d3f4e067abb7e61b7ae5c437d1234ae
 
 PODFILE CHECKSUM: 6225d913273923c0ae9a65c32ba234d378d40cb4
 

@@ -1,15 +1,7 @@
-#
-# Be sure to run `pod lib lint JCCloudProgressView.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'JCCloudProgressView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JCCloudProgressView.'
+  s.summary          = 'A progress indicator with cloud shape and waves.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +10,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A progress indicator with cloud shape and waves. It is a beautiful progress indicator for showing the data uploading to your server.
                        DESC
 
   s.homepage         = 'https://github.com/JasonHan1990/JCCloudProgressView'
@@ -37,6 +29,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

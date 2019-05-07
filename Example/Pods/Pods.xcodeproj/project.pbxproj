@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113723D99F7E551D1C16460A5BD68C6B /* JCCloudProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AF1D8679069ADF9DFF181241D179C4 /* JCCloudProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19FA1E5F9D3B5B7643C88A05265D68B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		204B3F5ABB6A79EA73912C59911A96EC /* Pods-JCCloudProgressView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E94CCDB8621F3F3A4A8BB2FE3BCE4FD5 /* Pods-JCCloudProgressView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B7C2C84E1DE3B2554B85DE6EBF7DBFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4F7C86478310AF3BF0918BEE5036D6C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2B7C2C84E1DE3B2554B85DE6EBF7DBFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		50FA630446380B2CFBED4BA6D1B10905 /* Pods-JCCloudProgressView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0382A299AB761FB53844B778A533CB1B /* Pods-JCCloudProgressView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97C7D2F079700868C403E1D5B2E0FDE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6B5F76F08F8B74E8189E4AD24C6E527E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		96F72961C295EC50FDEBBEB1981B1F49 /* WaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 89993C36F3150E45FBA0F5CA51A0C5DF /* WaveLayer.m */; };
+		97C7D2F079700868C403E1D5B2E0FDE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		9B8291DA683A86DC76F354D894045314 /* WaveLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 087161B72BA56FB6AC8785CCF3378D21 /* WaveLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C427A656E0A78CEFA13B8BC98453C5 /* JCCloudProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 701D5E58F0B4A1809A2987D8835A0C7D /* JCCloudProgressView.m */; };
 		A7E2B86C70D48DA9DE168B1CEE711583 /* Pods-JCCloudProgressView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A42160A26CEB4B2C64BEC9986A820D /* Pods-JCCloudProgressView_Example-dummy.m */; };
-		DEFB68413E79F299A11C8EFCC064224C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B1D12A2857E2917BD6FE98473C537 /* ReplaceMe.m */; };
-		DF189CFCA6BA4A57962E5BE1C3A51753 /* JCCloudProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6592B5016BD4D2B03A1E71E9AFAD55F4 /* JCCloudProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A90FA36FAF0CDD35B813FF831A8D9705 /* JCCloudProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7423703877D63BA9C6F408EF6B7D3B /* JCCloudProgressView-dummy.m */; };
+		DBB3B33B6256CAB1264CDFF6F9D8105A /* JCCloudProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 104CD0ED9534A8502362302936AFA45D /* JCCloudProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8A64C38941707E934018C93FEDE1922 /* Pods-JCCloudProgressView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF29E07B6E2ECF2BC99BFD757DA57860 /* Pods-JCCloudProgressView_Tests-dummy.m */; };
-		F05CFD487CEE5EF03353E77816256AC2 /* JCCloudProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FD9AA7B288CAFE885978EC128A6213 /* JCCloudProgressView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,49 +41,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02FD9AA7B288CAFE885978EC128A6213 /* JCCloudProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCCloudProgressView-dummy.m"; sourceTree = "<group>"; };
+		01FD4D54E88DE22851B1E56DE94A1580 /* JCCloudProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCCloudProgressView.modulemap; sourceTree = "<group>"; };
 		0382A299AB761FB53844B778A533CB1B /* Pods-JCCloudProgressView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCCloudProgressView_Example-umbrella.h"; sourceTree = "<group>"; };
 		04580105BF07EA43839A9C939EB71E7B /* Pods-JCCloudProgressView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCCloudProgressView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1B0B1D12A2857E2917BD6FE98473C537 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JCCloudProgressView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		24139A0E2E4BD05F957E227078D19492 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		087161B72BA56FB6AC8785CCF3378D21 /* WaveLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WaveLayer.h; path = JCCloudProgressView/Classes/WaveLayer.h; sourceTree = "<group>"; };
+		08B27B0B180685E3522F88AB9B6A9955 /* JCCloudProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCCloudProgressView.xcconfig; sourceTree = "<group>"; };
+		104CD0ED9534A8502362302936AFA45D /* JCCloudProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCCloudProgressView-umbrella.h"; sourceTree = "<group>"; };
 		24724C971CE9B3E5F0930580816AFD51 /* Pods-JCCloudProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCCloudProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		28D569F4923C3A732ADC6AAC7263771B /* Pods-JCCloudProgressView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCCloudProgressView_Example.modulemap"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		40E9159CF0226CD0FF395DE5A6245B35 /* JCCloudProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JCCloudProgressView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		47C071B5137178B77B2311A4F3363AA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3259651E0A1ACE69061E1A2A9203C778 /* JCCloudProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JCCloudProgressView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C7423703877D63BA9C6F408EF6B7D3B /* JCCloudProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCCloudProgressView-dummy.m"; sourceTree = "<group>"; };
 		654A3CF5AEC1659EDCBAF338A1A1648B /* Pods-JCCloudProgressView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCCloudProgressView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6592B5016BD4D2B03A1E71E9AFAD55F4 /* JCCloudProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCCloudProgressView-umbrella.h"; sourceTree = "<group>"; };
-		66F10B837001E4D09359C6780AAD0568 /* JCCloudProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JCCloudProgressView.framework; path = JCCloudProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		814B1C6908D65DA7836D2230EC5CAFC5 /* JCCloudProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCCloudProgressView.xcconfig; sourceTree = "<group>"; };
+		66F10B837001E4D09359C6780AAD0568 /* JCCloudProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCCloudProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		701D5E58F0B4A1809A2987D8835A0C7D /* JCCloudProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCCloudProgressView.m; path = JCCloudProgressView/Classes/JCCloudProgressView.m; sourceTree = "<group>"; };
+		71C270EF0F2F7E7EE7938B73ED459BCF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		867833FF6DA9E285FE257D615A9A96DF /* Pods-JCCloudProgressView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCCloudProgressView_Tests-Info.plist"; sourceTree = "<group>"; };
+		89993C36F3150E45FBA0F5CA51A0C5DF /* WaveLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WaveLayer.m; path = JCCloudProgressView/Classes/WaveLayer.m; sourceTree = "<group>"; };
 		8B4E1C578D4BB249ED982DDED7B15FD5 /* Pods-JCCloudProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCCloudProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8B7D5919B558F5266528C951E4FC88BB /* JCCloudProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCCloudProgressView-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91AF1D8679069ADF9DFF181241D179C4 /* JCCloudProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCCloudProgressView.h; path = JCCloudProgressView/Classes/JCCloudProgressView.h; sourceTree = "<group>"; };
+		964E8CBAB00DA39B12FC0BCE97F9F972 /* JCCloudProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCCloudProgressView-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E27AEA5AE20A8105B777913BFEB311A /* Pods-JCCloudProgressView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCCloudProgressView_Example-Info.plist"; sourceTree = "<group>"; };
 		A00F9565089348AABE2E3220374E39AB /* Pods-JCCloudProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCCloudProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A52669D3AD3478BF2DDF145BAACCE24F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B8A351B4C430D8656F3AE89D7CD79CE0 /* Pods-JCCloudProgressView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCCloudProgressView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B9FFAFE04E0948E64916EE95E90D24AF /* JCCloudProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCCloudProgressView.modulemap; sourceTree = "<group>"; };
 		BB6B2162EC15DFF3C437CB6C7FC8FE86 /* Pods-JCCloudProgressView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCCloudProgressView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C0F0E5A99007D237EBE7827A2D0EC597 /* JCCloudProgressView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JCCloudProgressView-Info.plist"; sourceTree = "<group>"; };
 		C5A42160A26CEB4B2C64BEC9986A820D /* Pods-JCCloudProgressView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCCloudProgressView_Example-dummy.m"; sourceTree = "<group>"; };
 		CF29E07B6E2ECF2BC99BFD757DA57860 /* Pods-JCCloudProgressView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCCloudProgressView_Tests-dummy.m"; sourceTree = "<group>"; };
-		E09946FC51EB54414C85F35B2C04910B /* Pods_JCCloudProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCCloudProgressView_Example.framework; path = "Pods-JCCloudProgressView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09946FC51EB54414C85F35B2C04910B /* Pods_JCCloudProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCCloudProgressView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CCFC59570E4EFE8895A2DDFCE90E4C /* JCCloudProgressView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JCCloudProgressView-Info.plist"; sourceTree = "<group>"; };
 		E4E937F0ED212BB2E56B955030830C0F /* Pods-JCCloudProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCCloudProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E94CCDB8621F3F3A4A8BB2FE3BCE4FD5 /* Pods-JCCloudProgressView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCCloudProgressView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EA2847C86E25486012E7C8BE3BBA7805 /* Pods-JCCloudProgressView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCCloudProgressView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EA9AD7299D660DF9EE5FBEFDED71E8EC /* Pods-JCCloudProgressView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCCloudProgressView_Tests.modulemap"; sourceTree = "<group>"; };
-		EF6C0E8B9AF88A12DF29A01334051F01 /* Pods_JCCloudProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCCloudProgressView_Tests.framework; path = "Pods-JCCloudProgressView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6C0E8B9AF88A12DF29A01334051F01 /* Pods_JCCloudProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCCloudProgressView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		02C4E39E81086E82D828E72811ECDD0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F7C86478310AF3BF0918BEE5036D6C3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		16F238B688DF8E7CA93094054FF11CDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,17 +96,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7695E011DE3F3125788EB9F420A5D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5F76F08F8B74E8189E4AD24C6E527E /* Foundation.framework in Frameworks */,
+				19FA1E5F9D3B5B7643C88A05265D68B9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C06EEB66CE0DBDBEFCFC9AB4B99AC08 /* Pod */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				40E9159CF0226CD0FF395DE5A6245B35 /* JCCloudProgressView.podspec */,
-				24139A0E2E4BD05F957E227078D19492 /* LICENSE */,
-				47C071B5137178B77B2311A4F3363AA2 /* README.md */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		17AAD3451CC37559F1255A5E6B0BA62C /* Targets Support Files */ = {
@@ -134,18 +141,18 @@
 			path = "Target Support Files/Pods-JCCloudProgressView_Tests";
 			sourceTree = "<group>";
 		};
-		68E0329B2A3A1265993916A02916418E /* Support Files */ = {
+		45E3B6357EF419CF679419F264968FBC /* JCCloudProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				B9FFAFE04E0948E64916EE95E90D24AF /* JCCloudProgressView.modulemap */,
-				814B1C6908D65DA7836D2230EC5CAFC5 /* JCCloudProgressView.xcconfig */,
-				02FD9AA7B288CAFE885978EC128A6213 /* JCCloudProgressView-dummy.m */,
-				C0F0E5A99007D237EBE7827A2D0EC597 /* JCCloudProgressView-Info.plist */,
-				8B7D5919B558F5266528C951E4FC88BB /* JCCloudProgressView-prefix.pch */,
-				6592B5016BD4D2B03A1E71E9AFAD55F4 /* JCCloudProgressView-umbrella.h */,
+				91AF1D8679069ADF9DFF181241D179C4 /* JCCloudProgressView.h */,
+				701D5E58F0B4A1809A2987D8835A0C7D /* JCCloudProgressView.m */,
+				087161B72BA56FB6AC8785CCF3378D21 /* WaveLayer.h */,
+				89993C36F3150E45FBA0F5CA51A0C5DF /* WaveLayer.m */,
+				F02A23C05D7855EB840CA2AA17988718 /* Pod */,
+				A9A3D868B93A54756823A769B21A4F57 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JCCloudProgressView";
+			name = JCCloudProgressView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		737D4D46F6882BF34705D5B89E7AA53D /* Pods-JCCloudProgressView_Example */ = {
@@ -165,6 +172,14 @@
 			path = "Target Support Files/Pods-JCCloudProgressView_Example";
 			sourceTree = "<group>";
 		};
+		98E4EB543C9B061D69B0BF14D03500D7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45E3B6357EF419CF679419F264968FBC /* JCCloudProgressView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		996C7E022BA383808F48827FBCD07082 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,50 +190,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		A9A3D868B93A54756823A769B21A4F57 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				01FD4D54E88DE22851B1E56DE94A1580 /* JCCloudProgressView.modulemap */,
+				08B27B0B180685E3522F88AB9B6A9955 /* JCCloudProgressView.xcconfig */,
+				5C7423703877D63BA9C6F408EF6B7D3B /* JCCloudProgressView-dummy.m */,
+				E2CCFC59570E4EFE8895A2DDFCE90E4C /* JCCloudProgressView-Info.plist */,
+				964E8CBAB00DA39B12FC0BCE97F9F972 /* JCCloudProgressView-prefix.pch */,
+				104CD0ED9534A8502362302936AFA45D /* JCCloudProgressView-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JCCloudProgressView";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FBDFFEDD9D75E1861356CF303D2E1CFD /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				98E4EB543C9B061D69B0BF14D03500D7 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				996C7E022BA383808F48827FBCD07082 /* Products */,
 				17AAD3451CC37559F1255A5E6B0BA62C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		F8BE4804AF9A0346BA17B7E44A9C29D6 /* JCCloudProgressView */ = {
+		F02A23C05D7855EB840CA2AA17988718 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1B0B1D12A2857E2917BD6FE98473C537 /* ReplaceMe.m */,
-				0C06EEB66CE0DBDBEFCFC9AB4B99AC08 /* Pod */,
-				68E0329B2A3A1265993916A02916418E /* Support Files */,
+				3259651E0A1ACE69061E1A2A9203C778 /* JCCloudProgressView.podspec */,
+				A52669D3AD3478BF2DDF145BAACCE24F /* LICENSE */,
+				71C270EF0F2F7E7EE7938B73ED459BCF /* README.md */,
 			);
-			name = JCCloudProgressView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		FBDFFEDD9D75E1861356CF303D2E1CFD /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F8BE4804AF9A0346BA17B7E44A9C29D6 /* JCCloudProgressView */,
-			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,11 +253,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF7ADFB02649C59B847D672006E24D5E /* Headers */ = {
+		AA1946EC43BB872C4BC97B54822CFC76 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF189CFCA6BA4A57962E5BE1C3A51753 /* JCCloudProgressView-umbrella.h in Headers */,
+				DBB3B33B6256CAB1264CDFF6F9D8105A /* JCCloudProgressView-umbrella.h in Headers */,
+				113723D99F7E551D1C16460A5BD68C6B /* JCCloudProgressView.h in Headers */,
+				9B8291DA683A86DC76F354D894045314 /* WaveLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +268,12 @@
 /* Begin PBXNativeTarget section */
 		279A4EEE116205BA00816EEB5EB124CB /* JCCloudProgressView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31A545502790A3C64B2745492C8E771D /* Build configuration list for PBXNativeTarget "JCCloudProgressView" */;
+			buildConfigurationList = BF41C65E6C6EF48645247F6EA79B60D3 /* Build configuration list for PBXNativeTarget "JCCloudProgressView" */;
 			buildPhases = (
-				BF7ADFB02649C59B847D672006E24D5E /* Headers */,
-				694D9F8B75E30CA8EAC247E723715DDA /* Sources */,
-				02C4E39E81086E82D828E72811ECDD0C /* Frameworks */,
-				039DD5A65FEF9291110049A3FA1F2608 /* Resources */,
+				AA1946EC43BB872C4BC97B54822CFC76 /* Headers */,
+				AB89389DE3D35B8E8CC3251155577FCD /* Sources */,
+				A7695E011DE3F3125788EB9F420A5D65 /* Frameworks */,
+				03ACD865DAB7ECFD465B8586BA69937A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,7 +351,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		039DD5A65FEF9291110049A3FA1F2608 /* Resources */ = {
+		03ACD865DAB7ECFD465B8586BA69937A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,12 +375,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		694D9F8B75E30CA8EAC247E723715DDA /* Sources */ = {
+		AB89389DE3D35B8E8CC3251155577FCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F05CFD487CEE5EF03353E77816256AC2 /* JCCloudProgressView-dummy.m in Sources */,
-				DEFB68413E79F299A11C8EFCC064224C /* ReplaceMe.m in Sources */,
+				A90FA36FAF0CDD35B813FF831A8D9705 /* JCCloudProgressView-dummy.m in Sources */,
+				A4C427A656E0A78CEFA13B8BC98453C5 /* JCCloudProgressView.m in Sources */,
+				96F72961C295EC50FDEBBEB1981B1F49 /* WaveLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,37 +419,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F0048249746A91B956155109DB51347 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 814B1C6908D65DA7836D2230EC5CAFC5 /* JCCloudProgressView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JCCloudProgressView/JCCloudProgressView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JCCloudProgressView/JCCloudProgressView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JCCloudProgressView/JCCloudProgressView.modulemap";
-				PRODUCT_MODULE_NAME = JCCloudProgressView;
-				PRODUCT_NAME = JCCloudProgressView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1C0446FEC112A157A4C22A54E6685E59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24724C971CE9B3E5F0930580816AFD51 /* Pods-JCCloudProgressView_Tests.debug.xcconfig */;
@@ -587,42 +572,11 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		7B39EF0A8BD0BEB0919690166D2671BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 814B1C6908D65DA7836D2230EC5CAFC5 /* JCCloudProgressView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JCCloudProgressView/JCCloudProgressView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JCCloudProgressView/JCCloudProgressView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JCCloudProgressView/JCCloudProgressView.modulemap";
-				PRODUCT_MODULE_NAME = JCCloudProgressView;
-				PRODUCT_NAME = JCCloudProgressView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -688,6 +642,36 @@
 			};
 			name = Debug;
 		};
+		8BC51933CA481F7D8DA30486124110B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B27B0B180685E3522F88AB9B6A9955 /* JCCloudProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCCloudProgressView/JCCloudProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCCloudProgressView/JCCloudProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCCloudProgressView/JCCloudProgressView.modulemap";
+				PRODUCT_MODULE_NAME = JCCloudProgressView;
+				PRODUCT_NAME = JCCloudProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		973850F94BDDE3FFC90E0A8D2A169F6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B4E1C578D4BB249ED982DDED7B15FD5 /* Pods-JCCloudProgressView_Example.release.xcconfig */;
@@ -722,18 +706,40 @@
 			};
 			name = Release;
 		};
+		FDDEAD62A30C9FD6CFD64B71E7D97B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B27B0B180685E3522F88AB9B6A9955 /* JCCloudProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCCloudProgressView/JCCloudProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCCloudProgressView/JCCloudProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCCloudProgressView/JCCloudProgressView.modulemap";
+				PRODUCT_MODULE_NAME = JCCloudProgressView;
+				PRODUCT_NAME = JCCloudProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31A545502790A3C64B2745492C8E771D /* Build configuration list for PBXNativeTarget "JCCloudProgressView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B39EF0A8BD0BEB0919690166D2671BC /* Debug */,
-				0F0048249746A91B956155109DB51347 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -748,6 +754,15 @@
 			buildConfigurations = (
 				1C0446FEC112A157A4C22A54E6685E59 /* Debug */,
 				21307969D2C8410AAFAAB67C308E8746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF41C65E6C6EF48645247F6EA79B60D3 /* Build configuration list for PBXNativeTarget "JCCloudProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC51933CA481F7D8DA30486124110B5 /* Debug */,
+				FDDEAD62A30C9FD6CFD64B71E7D97B5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
